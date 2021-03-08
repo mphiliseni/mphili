@@ -1,0 +1,116 @@
+/* color 
+
+#46E097
+#DAF9F6
+#FBFEFF
+
+*/
+/*.main-box {
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 4px 2px 4px rgb(70, 224, 151, 0.65);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0;
+
+}*/
+
+
+
+.big-circle{
+    width: 150px;
+    height: 150px;
+    border: transparent;
+    margin: auto;
+    position: relative;
+}
+
+.small-circle{
+    width: 170px;
+    border:0vmax;
+    height: 170px;
+    border: 100px;
+    border-radius: 1000%;
+    position: absolute;
+    top: -3px;
+    left: -5px;
+    background-image: url(/img/pfr.png);
+    background-position: center;
+    background-size: cover;
+}
+ul, #myUL {
+    list-style-type: none;
+  }
+  
+  #myUL {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .caret {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+  }
+  
+  .caret::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  .caret-down::before {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);  
+  }
+  
+  .nested {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  .Social-icon {
+    position: relative;
+    text-align: center;
+  }
+  .p{
+    text-align: center;
+  }
+  .dark-mode {
+    background-color: #192734;
+    color: white;}
+    body {
+      padding: 25px;
+      background-color: white;
+      color: #192734;
+      font-size: 25px;
+    }
+    #footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: red;
+      color: white;
+      text-align: center;
+      }
+      
+.main-container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px){
+	.main-container{
+		width: 95%;
+	}
+}
+#button-onclick {
+  background: transparent;
+}
